@@ -67,13 +67,12 @@ public class lc01_twoSum {
         throw new IllegalArgumentException("No two sum solution");
     }
 
-    public  static void main(String[] args) {
+    public static void main(String[] args) {
         lc01_twoSum s = new lc01_twoSum();
         int[] nums = {3,2,4};
         int[] output;
         output = s.twoSum3(nums, 6);
         //System.out.print(1);
-
         for (int i: output) {
             System.out.print(i);
         }
