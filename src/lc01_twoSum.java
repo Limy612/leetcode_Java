@@ -12,6 +12,11 @@ public class lc01_twoSum {
      * @return
      */
     public int[] twoSum1(int[] nums, int target) {
+        for (int i = 0; i < nums.length; i++) {
+            for (int j = 0; j < nums.length; j++) {
+
+            }
+        }
         for (int i = 0; i < nums.length; ++i){
             int targetNums = target - nums[i];
             for (int j = i + 1; j < nums.length; ++j){
